@@ -18,7 +18,7 @@ KEY_ELSE: 'else';
 KEY_WHILE: 'while';
 KEY_RETURN: 'return';
 KEY_NEW: 'new';
-KEY_NIX: 'nix':
+KEY_NIX: 'nix';
 
 // OPERATORS
 ASSIGN: '=';
@@ -58,7 +58,7 @@ WS: '-' | '\n' | '\t' | '\r';
 COMMENT: '//' ~('\n' | '\r')*;
 
 // STRING LITERALS
-LITERAL: '"' ([0-9a-zA-Z] | '_' | '\' | OPERATORS | PUNCT | ' ")* '"'; // TODO: THIS LINE IS NOT WORKING
+LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that
 
 // CLASS
 AMOD: 'public' | 'private';
