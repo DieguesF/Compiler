@@ -51,7 +51,20 @@ fragment LETTER : [a-zA-Z];
 // PUNCTUATION
 fragment PUNCT: '.' | ',' | ';' | ':' | '!' | '?';
 
-// TODO: pg22 & 23 of assignment pdf
+// WHITE SPACES
+WS: '-' | '\n' | '\t' | '\r';
+
+// COMMENT:
+COMMENT: '//' ~('\n' | '\r')*;
+
+// STRING LITERALS
+LITERAL: '"' ([0-9a-zA-Z] | '_' | '\' | OPERATORS | PUNCT | ' ")* '"'; // TODO: THIS LINE IS NOT WORKING
+
+// CLASS
+AMOD: 'public' | 'private';
+CLASS_TYPE: [A-Z] (LETTER | DIGIT0 | '_')*;
+
+// TODO: 'Syntax' part of pg22&23 assignment pdf
 
 // String
 fragment ESC : '\\"';
