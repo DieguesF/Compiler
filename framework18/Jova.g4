@@ -64,19 +64,37 @@ LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO:
 AMOD: 'public' | 'private';
 CLASS_TYPE: [A-Z] (LETTER | DIGIT0 | '_')*;
 
-// TODO: 'Syntax' part of pg22&23 assignment pdf
-
-// String
-fragment ESC : '\\"';
-STRING_LIT: '"' (ESC | )*? '"'; // TODO: decide what characters should be allowed in a String
-
-// nix
-NULL: 'nix'
-
-
-
 // ------------------------ parser rules ---------------------------
 
+program: class_decls;
+type: PRIMITIVE_TYPE | CLASS_TYPE;
+class_decls: class_decl (class_decls | );
+class_decl: class_head class_body;
+class_head: KEY_CLASS CLASS_TYPE;
+class_body: '{' member_decls method_decls '}';
+member_decls: member_decl member_decls | ;
+member_decl: AMOD type id_list ';';
+id_list: id_list ID | ID ',' | ; // TODO: Task 1.3
+method_decls: method_decl method_decls | ;
+method_decl: method_head method_body;
+method_head: AMOD type ID params;
+params: '(' param_list ')' | '()';
+param_list: type ID | param_list ',' type ID;
+method_body: '{' declaration stmt ret_stmt '}';
+declaration: type id_list ';' | declaration type id_list ';' | ;
+stmt: stmt if_stmt | stmt while_stmt | stmt assignment ';' | ;
+ret_stmt: KEY_RETURN expr ';';
+if_stmt: KEY_IF '(' expr ')' compound_stmt | KEY_IF '(' expr ')' compound_stmt KEY_ELSE compound_stmt;
+while_stmt: KEY_WHILE '(' expr ')' compound_stmt;
+assignment: member_access ASSIGN (expr | object_alloc);
+member_access: ID DOTOP member_access | ID;
+object_alloc: KEY_NEW CLASS_TYPE;
+compound_stmt: '{' stmt '}';
+expr: // TODO: create production for expressions (Task 1.2)
+operand: INT | BOOL | LITERAL | KEY_NIX | NOT operand | SIGN operand | id_operand | '(' expr ')';
+id_operand: member_access '(' arg_list ')' | member_access;
+arg_list: args | ;
+args: expr | args ',' expr;
 
 // Do not remove/change the WS lexer rule as defined below
 WS : [ \n\t\r] -> channel(HIDDEN);
