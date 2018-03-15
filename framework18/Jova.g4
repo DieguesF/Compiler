@@ -74,7 +74,7 @@ class_head: KEY_CLASS CLASS_TYPE;
 class_body: '{' member_decls method_decls '}';
 member_decls: member_decl member_decls | ;
 member_decl: AMOD type id_list ';';
-id_list: id_list ID | ID ',' | ; // TODO: Task 1.3
+id_list: ID | ID ',' id_list; // TODO: check if this line is correct (for task 1.3)
 method_decls: method_decl method_decls | ;
 method_decl: method_head method_body;
 method_head: AMOD type ID params;
@@ -90,11 +90,23 @@ assignment: member_access ASSIGN (expr | object_alloc);
 member_access: ID DOTOP member_access | ID;
 object_alloc: KEY_NEW CLASS_TYPE;
 compound_stmt: '{' stmt '}';
-expr: // TODO: create production for expressions (Task 1.2)
+
+// --------------------- TODO: check correctness (for task 1.2) -------------------
+expr: operand | expr_or;
+expr_or: expr_and OR (expr_or | expr_and); // "true OR true", "false or true or false" etc.
+expr_and: expr_relop AND (expr_and | expr_relop); // "(1>2) AND true", "(3>2) AND (5==3) AND true" etc.
+expr_relop: expr_sign RELOP (expr_relop | expr_sign); // "(1+2) > (3-4)" etc.
+expr_sign: expr_mulop SIGN (expr_sign | expr_mulop); // "(a x b) + (c / d)" etc.
+expr_mulop: operand MULOP (expr_mulop | operand); // "a x b", "a x b / c" etc.
+// --------------------- TODO: check correctness (for task 1.2) -------------------
+
 operand: INT | BOOL | LITERAL | KEY_NIX | NOT operand | SIGN operand | id_operand | '(' expr ')';
 id_operand: member_access '(' arg_list ')' | member_access;
 arg_list: args | ;
 args: expr | args ',' expr;
+
+
+// TODO: The lines below are in the provided source code, but another definition for "WS" and "program" are also given in the grammar in assignment PDF so I don't know how to resolve it
 
 // Do not remove/change the WS lexer rule as defined below
 WS : [ \n\t\r] -> channel(HIDDEN);
