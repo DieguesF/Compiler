@@ -3,6 +3,9 @@
 *.java
 *.interp
 *.tokens
+*.out
+*.j
+*.jova
 
 # Maven build folders
 target/
