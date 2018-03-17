@@ -8,7 +8,7 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Token;
 
 import java.io.IOException;
-
+//TODO: we have to change this class, only copy from calculator
 public class LexicalAndSyntaxAnalyzer implements LexicalAndSyntaxAnalyzerInterface {
 
     public int lexer(String file_path, boolean debug) {
