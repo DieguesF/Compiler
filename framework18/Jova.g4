@@ -109,8 +109,8 @@ args: expr | args ',' expr;
 // TODO: The lines below are in the provided source code, but another definition for "WS" and "program" are also given in the grammar in assignment PDF so I don't know how to resolve it
 
 // Do not remove/change the WS lexer rule as defined below
-WS : [ \n\t\r] -> channel(HIDDEN);
+//WS : [ \n\t\r] -> channel(HIDDEN);
 
-program : EOF;
+//program : EOF;
 
 
