@@ -58,7 +58,7 @@ WS: '-' | '\n' | '\t' | '\r';
 COMMENT: '//' ~('\n' | '\r')*;
 
 // STRING LITERALS
-LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that
+LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that.
 
 // CLASS
 AMOD: 'public' | 'private';
