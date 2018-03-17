@@ -1,7 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff38f98-394d-4e1c-9196-32a6d18839c6" name="Default" comment="" />
+    <list default="true" id="59db90d5-5e04-4c5f-a4bf-22a08cce8e4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/JavaApplication1/JavaApplication1.iml" afterPath="$PROJECT_DIR$/JavaApplication1/JavaApplication1.iml" />
+      <change beforePath="$PROJECT_DIR$/Jova.g4" afterPath="$PROJECT_DIR$/Jova.g4" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/CodeGeneration.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/CodeGeneration.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/LexicalAndSyntaxAnalyzer.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/LexicalAndSyntaxAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/LexicalAndSyntaxPublicTest.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/LexicalAndSyntaxPublicTest.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/Main.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/Main.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/TypeChecker.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/TypeChecker.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/TypeCheckerPublicTest.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/TypeCheckerPublicTest.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/debug/DebugGenerator.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/debug/DebugGenerator.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/ErrorHandler.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/ErrorHandler.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/JovaError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/JovaError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/JovaErrorFactory.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/JovaErrorFactory.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/lexandparse/LexerError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/lexandparse/LexerError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/lexandparse/SyntaxError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/lexandparse/SyntaxError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/BinaryTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/BinaryTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/CannotInvokeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/CannotInvokeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/ClassDoubleDefTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/ClassDoubleDefTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/DoesNotHaveFieldError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/DoesNotHaveFieldError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/IncompatibleCondTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/IncompatibleCondTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/IncompatibleReturnTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/IncompatibleReturnTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MainInstantiationError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MainInstantiationError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MainMemberError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MainMemberError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MemberAccessError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MemberAccessError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MemberDoubleDefTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MemberDoubleDefTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MethodAccessError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MethodAccessError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MethodDoubleDefTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/MethodDoubleDefTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UnaryTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UnaryTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UndefIdError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UndefIdError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UndefMethodError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UndefMethodError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UnknownTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/UnknownTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/VarDoubleDefTypeError.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/error/typechecker/VarDoubleDefTypeError.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/interfaces/CodeGenerationInterface.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/interfaces/CodeGenerationInterface.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/interfaces/LexicalAndSyntaxAnalyzerInterface.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/interfaces/LexicalAndSyntaxAnalyzerInterface.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/interfaces/TypeCheckerInterface.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/interfaces/TypeCheckerInterface.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/JovaWarning.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/JovaWarning.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/BinaryCoercionWarning.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/BinaryCoercionWarning.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/ConditionCoercionWarning.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/ConditionCoercionWarning.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/ReturnCoecrionWarning.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/ReturnCoecrionWarning.class" />
+      <change beforePath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/UnaryCoercionWarning.class" afterPath="$PROJECT_DIR$/bin/at/tugraz/ist/cc/warning/typechecker/UnaryCoercionWarning.class" />
+      <change beforePath="$PROJECT_DIR$/bin/input/bytecode/pass01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/bytecode/pass02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/bytecode/pass03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/bytecode/pass04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/bytecode/pass05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/bytecode/pass06.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail06.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail07.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail08.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/fail09.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/pass01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/pass02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/pass03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/lexer/pass04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail06.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail07.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail08.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail09.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail10.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail11.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail12.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail13.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail14.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail15.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail16.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail17.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail18.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail19.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail20.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail21.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail22.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail23.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/fail24.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass06.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass07.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass08.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass09.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/parser/pass10.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/coercion_warning/warning01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/coercion_warning/warning02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/coercion_warning/warning03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/coercion_warning/warning04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/access/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/access/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail06.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail07.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail08.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/double_decl/fail09.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incompatible_condition/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incompatible_condition/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incompatible_return/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail06.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail07.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/incorrect_operand/fail08.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/main_structure/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/main_structure/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/undeclared_id/fail01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/undeclared_id/fail02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/undeclared_id/fail03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/undeclared_id/fail04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/fail/undeclared_id/fail05.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/pass/pass01.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/pass/pass02.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/pass/pass03.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/input/typechecking/pass/pass04.jova" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass01/Evaluation.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass01/Main.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass01/pass01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass02/Main.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass02/pass02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass03/JonSnow.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass03/Knowledge.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass03/Main.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass03/pass03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass04/Main.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass04/pass04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass05/Main.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass05/Nested.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass05/pass05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass06/Main.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass06/Printer.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass06/Tower.j" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/bytecode/pass06/pass06.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail06.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail07.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail08.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/fail09.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/pass01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/pass02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/pass03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/lexer/pass04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail06.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail07.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail08.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail09.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail10.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail11.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail12.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail13.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail14.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail15.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail16.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail17.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail18.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail19.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail20.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail21.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail22.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail23.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/fail24.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass06.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass07.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass08.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass09.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/parser/pass10.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/coercion_warning/warning01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/coercion_warning/warning02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/coercion_warning/warning03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/coercion_warning/warning04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/access/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/access/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail06.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail07.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail08.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/double_decl/fail09.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incompatible_condition/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incompatible_condition/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incompatible_return/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail06.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail07.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/incorrect_operand/fail08.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/main_structure/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/main_structure/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/undeclared_id/fail01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/undeclared_id/fail02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/undeclared_id/fail03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/undeclared_id/fail04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/fail/undeclared_id/fail05.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/pass/pass01.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/pass/pass02.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/pass/pass03.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ref/typechecking/pass/pass04.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/framework18.iml" afterPath="$PROJECT_DIR$/framework18.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,13 +246,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Jova.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jova.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="333">
+              <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -25,14 +264,28 @@
       <file leaf-file-name="LexicalAndSyntaxAnalyzer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/at/tugraz/ist/cc/LexicalAndSyntaxAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="307">
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nix</find>
+      <find>KEY_NIX</find>
+      <find>CalculatorLexer</find>
+      <find>ws</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>JovaLexer</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -42,8 +295,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Jova.g4" />
         <option value="$PROJECT_DIR$/src/at/tugraz/ist/cc/LexicalAndSyntaxAnalyzer.java" />
+        <option value="$PROJECT_DIR$/Jova.g4" />
       </list>
     </option>
   </component>
@@ -53,12 +306,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -74,10 +328,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,17 +349,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="framework18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tut01" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/tut01" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,30 +472,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ff38f98-394d-4e1c-9196-32a6d18839c6" name="Default" comment="" />
-      <created>1520946596516</created>
+      <changelist id="59db90d5-5e04-4c5f-a4bf-22a08cce8e4f" name="Default" comment="" />
+      <created>1521042840947</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1520946596516</updated>
-      <workItem from="1520946605303" duration="497000" />
-      <workItem from="1520948363025" duration="69000" />
-      <workItem from="1520948560386" duration="36000" />
-      <workItem from="1520948618019" duration="20000" />
-      <workItem from="1520948984188" duration="142000" />
-      <workItem from="1520949287926" duration="24000" />
-      <workItem from="1520949367722" duration="148000" />
-      <workItem from="1520950357743" duration="25000" />
-      <workItem from="1520950405940" duration="105000" />
-      <workItem from="1520950695123" duration="139000" />
-      <workItem from="1520950875578" duration="734000" />
+      <updated>1521042840947</updated>
+      <workItem from="1521042845598" duration="918000" />
+      <workItem from="1521295294927" duration="5609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1939000" />
+    <option name="totallyTimeSpent" value="6527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -245,20 +497,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -280,104 +532,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Jova.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jova.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at/tugraz/ist/cc/LexicalAndSyntaxAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jova.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/tugraz/ist/cc/LexicalAndSyntaxAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="307">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -387,6 +559,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

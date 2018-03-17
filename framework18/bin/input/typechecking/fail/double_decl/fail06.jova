@@ -1,7 +1,0 @@
-class Nested {
-
-  public int fortyTwo(int x) {
-    int x;
-    return 42;
-  }
-}

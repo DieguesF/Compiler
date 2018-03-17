@@ -1,6 +1,0 @@
-class Main {
-public int main() {
-  as_1 = 00127;
-  return 0;
-}
-}

@@ -1,6 +1,0 @@
-
-Number of lexical errors: 0
-
-Number of syntax errors: 2
-  #1: line 19:11 no viable alternative at input '.'
-  #2: line 19:21 missing '=' at '('
