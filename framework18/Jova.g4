@@ -52,13 +52,13 @@ fragment LETTER : [a-zA-Z];
 fragment PUNCT: '.' | ',' | ';' | ':' | '!' | '?';
 
 // WHITE SPACES
-WS: '-' | '\n' | '\t' | '\r';
+WS:  [-\n\t\r ]  -> channel(HIDDEN);
 
 // COMMENT:
 COMMENT: '//' ~('\n' | '\r')*;
 
 // STRING LITERALS
-LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that.
+LITERAL: '"' ([0-9a-zA-Z] | '_' | [\\] | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that.
 
 // CLASS
 AMOD: 'public' | 'private';
@@ -67,7 +67,7 @@ CLASS_TYPE: [A-Z] (LETTER | DIGIT0 | '_')*;
 // ------------------------ parser rules ---------------------------
 
 program: class_decls;
-type: PRIMITIVE_TYPE | CLASS_TYPE;
+type: PRIMITIVE_TYPE | CLASS_TYPE ;
 class_decls: class_decl (class_decls | );
 class_decl: class_head class_body;
 class_head: KEY_CLASS CLASS_TYPE;
@@ -111,6 +111,6 @@ args: expr | args ',' expr;
 // Do not remove/change the WS lexer rule as defined below
 //WS : [ \n\t\r] -> channel(HIDDEN);
 
-//program : EOF;
+//
 
 
