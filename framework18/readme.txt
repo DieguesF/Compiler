@@ -1,9 +1,10 @@
-GroupXX - Task 1
+Group18 - Task 1
 
-Max Mustermann    (1630001)   max.mustermann@student.tugraz.at
-Miriam Musterfrau (1630002)   miriam.musterfrau@student.tugraz.at
-John Doe          (1630003)   john.doe@student.tugraz.at
-Jane Doe          (1630010)   j.doe@student.tugraz.at
+Chao Ying Chu                   (11739612)   ccying@link.cuhk.edu.hk
+Jesus Alexander Gomez Gomez     (11739616)   gomezgomez@student.tugraz.at
+Christian Walter                (01431717)   christian.walter@student.tugraz.at
+Andre Filipe Diegues Fernandes  (11739683)   andre.diegues.f@gmail.com
+
 
 
 Description of the Program:
