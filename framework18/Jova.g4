@@ -58,7 +58,7 @@ WS:  [-\n\t\r ]  -> channel(HIDDEN);
 COMMENT: '//' ~('\n' | '\r')*;
 
 // STRING LITERALS
-LITERAL: '"' ([0-9a-zA-Z] | '_' | [\\] | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that.
+LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that.
 
 // CLASS
 AMOD: 'public' | 'private';
@@ -92,6 +92,7 @@ object_alloc: KEY_NEW CLASS_TYPE;
 compound_stmt: '{' stmt '}';
 
 // --------------------- TODO: check correctness (for task 1.2) -------------------
+
 expr: operand | expr_or;
 expr_or: expr_and OR (expr_or | expr_and); // "true OR true", "false or true or false" etc.
 expr_and: expr_relop AND (expr_and | expr_relop); // "(1>2) AND true", "(3>2) AND (5==3) AND true" etc.
