@@ -2,6 +2,7 @@ package at.tugraz.ist.cc;
 
 import at.tugraz.ist.cc.antlr.gen.JovaLexer;
 import at.tugraz.ist.cc.antlr.gen.JovaParser;
+import at.tugraz.ist.cc.error.ErrorHandler;
 import at.tugraz.ist.cc.interfaces.LexicalAndSyntaxAnalyzerInterface;
 import org.antlr.v4.runtime.ANTLRFileStream;
 import org.antlr.v4.runtime.CommonTokenStream;
@@ -12,25 +13,34 @@ import java.io.IOException;
 public class LexicalAndSyntaxAnalyzer implements LexicalAndSyntaxAnalyzerInterface {
 
     public int lexer(String file_path, boolean debug) {
-   /*     JovaLexer lexer;
-        try {
-            lexer = new JovaLexer(new ANTLRFileStream(file_path));
 
-            System.out.println(generateLexerDebug1(lexer));
+        JovaLexer lexer;
+
+        try {
+            //lexer = new JovaLexer(new ANTLRFileStream(file_path));
+            //System.out.println(generateLexerDebug1(lexer));
 
             lexer = new JovaLexer(new ANTLRFileStream(file_path));
             lexer.removeErrorListeners();
+            //lexer.addErrorListener();
+
             CommonTokenStream tokens = new CommonTokenStream(lexer);
-            JovaParser parser = new JovaParser(tokens);
 
-            parser.program();
-
-        } catch (IOException e) {
+            if (debug){
+                System.out.println(generateLexerDebug(lexer));
+            }
+            //JovaParser parser = new JovaParser(tokens);
+            //parser.program();
+        } 
+        catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-*/
-        return 0;
+
+
+        ErrorHandler.INSTANCE.printLexerErrors();
+        return ErrorHandler.INSTANCE.getNumLexErrors();
+        //return 0;
     }
 
     public int checkSyntax(String file_path, boolean debug) {

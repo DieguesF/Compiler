@@ -1,8 +1,8 @@
 Group18 - Task 1
 
 Chao Ying Chu                   (11739612)   ccying@link.cuhk.edu.hk
-Jesus Alexander Gomez Gomez     (11739616)   gomezgomez@student.tugraz.at
 Christian Walter                (01431717)   christian.walter@student.tugraz.at
+Jesus Alexander Gomez Gomez     (11739616)   gomezgomez@student.tugraz.at
 Andre Filipe Diegues Fernandes  (11739683)   andre.diegues.f@gmail.com
 
 

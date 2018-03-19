@@ -7,6 +7,9 @@
 *.j
 *.jova
 
+framework18/test/output/TEST-at.tugraz.ist.cc.LexicalAndSyntaxPublicTest.xml
+framework18/test/output/TEST-at.tugraz.ist.cc.TypeCheckerPublicTest.xml
+
 # Maven build folders
 target/
 # ... but not code generation targets
