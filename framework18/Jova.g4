@@ -34,8 +34,8 @@ fragment OPERATORS: '<' | '>' | '=' | '+' | '-' | '/' | '%' | '*' | '|' | '&';
 // NUMERICAL LITERALS
 fragment DIGIT0: [0-9]; // '0'..'9'
 fragment DIGIT: [1-9];
-NUMBER: DIGIT0 | (DIGIT DIGIT0*); // either single digit OR not starting with 0
-DECIMAL: DIGIT0+; // .0123, .999 etc.
+fragment NUMBER: DIGIT0 | (DIGIT DIGIT0*); // either single digit OR not starting with 0
+fragment DECIMAL: DIGIT0+; // .0123, .999 etc.
 INT: '-'? NUMBER ('.' DECIMAL)?; // -9, -1.23, 5, 6.8 etc.
 
 // PRIMITIVE TYPES
