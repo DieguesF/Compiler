@@ -10,7 +10,8 @@ grammar Jova;
 }
 
 // ------------------------ lexer rules ---------------------------
-
+// CLASS
+AMOD: 'public' | 'private';
 // KEYWORDS
 KEY_CLASS: 'class';
 KEY_IF: 'if';
@@ -52,7 +53,7 @@ fragment LETTER : [a-zA-Z];
 fragment PUNCT: '.' | ',' | ';' | ':' | '!' | '?';
 
 // WHITE SPACES
-WS:  [-\n\t\r ]  -> channel(HIDDEN);
+WS:  [ \n\t\r]  -> channel(HIDDEN);
 
 // COMMENT:
 COMMENT: '//' ~('\n' | '\r')*;
@@ -60,21 +61,20 @@ COMMENT: '//' ~('\n' | '\r')*;
 // STRING LITERALS
 LITERAL: '"' ([0-9a-zA-Z] | '_' | '\\' | OPERATORS | PUNCT | ' ')* '"'; // TODO: I'm not 100% confident but I think is like that.
 
-// CLASS
-AMOD: 'public' | 'private';
+
 CLASS_TYPE: [A-Z] (LETTER | DIGIT0 | '_')*;
 
 // ------------------------ parser rules ---------------------------
 
 program: class_decls;
-type: PRIMITIVE_TYPE | CLASS_TYPE ;
+type: PRIMITIVE_TYPE | CLASS_TYPE;
 class_decls: class_decl (class_decls | );
 class_decl: class_head class_body;
 class_head: KEY_CLASS CLASS_TYPE;
 class_body: '{' member_decls method_decls '}';
 member_decls: member_decl member_decls | ;
 member_decl: AMOD type id_list ';';
-id_list: ID | ID ',' id_list; // TODO: check if this line is correct (for task 1.3)
+id_list: ID | ID (',' id_list)*; // TODO: check if this line is correct (for task 1.3)
 method_decls: method_decl method_decls | ;
 method_decl: method_head method_body;
 method_head: AMOD type ID params;
@@ -93,12 +93,14 @@ compound_stmt: '{' stmt '}';
 
 // --------------------- TODO: check correctness (for task 1.2) -------------------
 
-expr: operand | expr_or;
-expr_or: expr_and OR (expr_or | expr_and); // "true OR true", "false or true or false" etc.
-expr_and: expr_relop AND (expr_and | expr_relop); // "(1>2) AND true", "(3>2) AND (5==3) AND true" etc.
-expr_relop: expr_sign RELOP (expr_relop | expr_sign); // "(1+2) > (3-4)" etc.
-expr_sign: expr_mulop SIGN (expr_sign | expr_mulop); // "(a x b) + (c / d)" etc.
-expr_mulop: operand MULOP (expr_mulop | operand); // "a x b", "a x b / c" etc.
+expr: expr_or;
+expr_or: expr_and (OR expr_and)*; // "true OR true", "false or true or false" etc.
+expr_and: expr_relop (AND expr_relop)*; // "(1>2) AND true", "(3>2) AND (5==3) AND true" etc.
+expr_relop: expr_sign (RELOP  expr_sign)*; // "(1+2) > (3-4)" etc.
+expr_sign: expr_mulop (SIGN expr_mulop)*; // "(a x b) + (c / d)" etc.
+expr_mulop: expr_uni (MULOP expr_uni)*; // "a x b", "a x b / c" etc.
+expr_uni: NOT operand | operand | SIGN operand;
+
 // --------------------- TODO: check correctness (for task 1.2) -------------------
 
 operand: INT | BOOL | LITERAL | KEY_NIX | NOT operand | SIGN operand | id_operand | '(' expr ')';

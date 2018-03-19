@@ -17,9 +17,6 @@ public class LexicalAndSyntaxAnalyzer implements LexicalAndSyntaxAnalyzerInterfa
         JovaLexer lexer;
 
         try {
-            //lexer = new JovaLexer(new ANTLRFileStream(file_path));
-            //System.out.println(generateLexerDebug1(lexer));
-
             lexer = new JovaLexer(new ANTLRFileStream(file_path));
             lexer.removeErrorListeners();
             //lexer.addErrorListener();
@@ -80,31 +77,6 @@ public class LexicalAndSyntaxAnalyzer implements LexicalAndSyntaxAnalyzerInterfa
                     current_line = token.getLine();
                     int current_position = token.getCharPositionInLine();
                     lex_debug.append(System.lineSeparator()).append("#"+count+": ").append("line ").append(current_line).append(":").append(current_position);
-                }
-
-                lex_debug.append(" ");
-
-                // adding token "names"
-                if (JovaLexer.VOCABULARY.getSymbolicName(token.getType()) != null)
-                    lex_debug.append(JovaLexer.VOCABULARY.getSymbolicName(token.getType()));
-                else
-                    lex_debug.append(JovaLexer.VOCABULARY.getLiteralName(token.getType()));
-            }
-        }
-        return lex_debug.toString();
-    }
-    public String generateLexerDebug1(JovaLexer lex) {
-        StringBuilder lex_debug = new StringBuilder();
-
-        // iterating through all input tokens
-        int current_line = 0;
-        for (Token token = lex.nextToken(); token.getType() != Token.EOF; token = lex.nextToken()) {
-            if (token.getType() != JovaLexer.WS) {
-                if (current_line == token.getLine()) {
-                    // updating new line
-                    current_line = token.getLine();
-                    int current_position = token.getCharPositionInLine();
-                    lex_debug.append(System.lineSeparator()).append("line ").append(current_line).append(":").append(current_position);
                 }
 
                 lex_debug.append(" ");
