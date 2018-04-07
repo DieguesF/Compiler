@@ -8,3 +8,6 @@
   tut2/example_3.calc!
 
 *)happy hacking!
+
+run examples:
+ant run -Dtask=tut2 -Dfile=./test/input/tut2/example_3.calc -Ddebug=true

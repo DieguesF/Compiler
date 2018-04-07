@@ -8,8 +8,9 @@
 *.j
 *.jova
 
-framework18/test/output/TEST-at.tugraz.ist.cc.LexicalAndSyntaxPublicTest.xml
-framework18/test/output/TEST-at.tugraz.ist.cc.TypeCheckerPublicTest.xml
+tut_2/test/output/
+tut_2/src/at/tugraz/ist/cc/antlr/
+framework18/test/output/
 
 # Maven build folders
 target/
