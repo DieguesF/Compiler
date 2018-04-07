@@ -1,0 +1,6 @@
+begin
+foo = 1;
+bar = 1 + 2;
+baz = 1 * 2 + 3;
+foobar = "Hello i12\n";
+end

@@ -1,0 +1,9 @@
+begin
+int foo;
+string bar;
+string foo;
+
+foo = 1 + "two";
+fo = 1 + 2;
+
+end

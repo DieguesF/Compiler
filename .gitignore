@@ -1,6 +1,7 @@
 # java .class
-*.class
-*.java
+# *.class
+# *.java
+
 *.interp
 *.tokens
 *.out

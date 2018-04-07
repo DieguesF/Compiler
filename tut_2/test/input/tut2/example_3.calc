@@ -1,0 +1,33 @@
+begin
+int foo;
+int bar;
+string baz;
+
+string foo;
+
+foo = 1 + foo;
+
+foo = 1 + baz;
+foo = 1 + fo;
+foo = baz + 1;
+foo = fo + 1;
+
+foo = 1 * baz;
+foo = 1 * fo;
+foo = baz * 1;
+foo = fo * 1;
+
+foo = 1 + "hello";
+foo = "hello" + 1;
+foo = "hello" + "hello";
+
+foo = 1 * "hello";
+foo = "hello" * 1;
+foo = "hello" * "hello";
+
+fo = 1;
+baz =  1;
+
+foo = "hello" + 2 + 3 + 5 + 1;
+end
+
