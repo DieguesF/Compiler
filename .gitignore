@@ -24,7 +24,7 @@ typings/
 # Ant build folders
 build/
 dist/
-lib/
+#lib/
 user.build.properties
 
 # MacOSX files
@@ -105,7 +105,7 @@ bild.log
 bild_output.txt
 runtime/Cpp/demo/generated
 xcuserdata
-*.jar
+#*.jar
 .vscode
 
 # VSCode Java plugin temporary files
