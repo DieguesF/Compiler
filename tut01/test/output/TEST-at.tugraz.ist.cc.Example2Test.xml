@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="eli" name="at.tugraz.ist.cc.Example2Test" skipped="0" tests="1" time="0.216" timestamp="2018-03-17T15:27:12">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="lib" />
+    <property name="package" value="at/tugraz/ist/cc" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Linux" />
+    <property name="task1b.dir" value="test/output/parser" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+    <property name="ant-contrib.lib" value="/home/christian/Downloads/uni/CC/tut01/lib/ant-contrib-1.0b3.jar" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12" />
+    <property name="grammar" value="Calculator" />
+    <property name="user.name" value="christian" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
+    <property name="task1a.dir" value="test/output/lexer" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="Compilerbau" />
+    <property name="java.version" value="1.8.0_151" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="main-class" value="at.tugraz.ist.cc.Main" />
+    <property name="ant.file" value="/home/christian/Downloads/uni/CC/tut01/build.xml" />
+    <property name="os.version" value="4.13.0-32-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.151-b12" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="user.home" value="/home/christian" />
+    <property name="task3.dir" value="test/output/bytecode" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="jar.file" value="Compilerbau.jar" />
+    <property name="junit.dir" value="test" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="ant.file.Compilerbau" value="/home/christian/Downloads/uni/CC/tut01/build.xml" />
+    <property name="bin.dir" value="bin" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner at.tugraz.ist.cc.Example2Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/christian/Downloads/uni/CC/tut01/test/output/TEST-at.tugraz.ist.cc.Example2Test.xml crashfile=/home/christian/Downloads/uni/CC/tut01/junitvmwatcher8688093798659532330.properties propsfile=/home/christian/Downloads/uni/CC/tut01/junit7645831915147780178.properties" />
+    <property name="java.class.path" value="/home/christian/Downloads/uni/CC/tut01/lib/junit-4.12.jar:/home/christian/Downloads/uni/CC/tut01/lib/antlr-4.5-complete.jar:/home/christian/Downloads/uni/CC/tut01/bin:/usr/share/java/ant-launcher-1.9.9.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on June 29 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="task2.dir" value="test/output/typeChecking" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/christian/Downloads/uni/CC/tut01" />
+    <property name="antlr.dir" value="antlr" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.file.type.Compilerbau" value="file" />
+    <property name="basedir" value="/home/christian/Downloads/uni/CC/tut01" />
+    <property name="analyzer.dir" value="antlr/gen" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="run-junit" />
+    <property name="grammar.file" value="Calculator.g4" />
+    <property name="out.dir" value="test/output" />
+  </properties>
+  <testcase classname="at.tugraz.ist.cc.Example2Test" name="testExample_2" time="0.116" />
+  <system-out><![CDATA[
+1: KEY_BEGIN
+2: ID EQ NUMBER ';'
+3: ID EQ NUMBER ADD NUMBER ';'
+4: ID EQ NUMBER MUL NUMBER ADD NUMBER ';'
+5: ID EQ STRING_LIT ';'
+6: KEY_END
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
